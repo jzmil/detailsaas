@@ -18,13 +18,14 @@ export default function Home() {
             Features
           </a>
 
-        <Link href="/pricing" className="hover:text-slate-950">
-          Pricing
-        </Link>
+          <Link href="/pricing" className="hover:text-slate-950">
+            Pricing
+          </Link>
 
-          <a href="#faq" className="hover:text-slate-950">
+          <Link href="/faq" className="hover:text-slate-950">
             FAQs
-          </a>
+          </Link>
+
         </div>
 
         <div className="flex items-center gap-6">
@@ -220,11 +221,10 @@ function SidebarItem({
 }) {
   return (
     <div
-      className={`rounded-lg px-4 py-3 ${
-        active
+      className={`rounded-lg px-4 py-3 ${active
           ? "bg-slate-100 font-semibold text-slate-950"
           : "text-slate-500 hover:bg-slate-50"
-      }`}
+        }`}
     >
       {text}
     </div>
@@ -280,11 +280,10 @@ function BookingRow({
       </div>
 
       <span
-        className={`rounded-full px-3 py-1 text-xs font-medium ${
-          pending
+        className={`rounded-full px-3 py-1 text-xs font-medium ${pending
             ? "bg-orange-50 text-orange-600"
             : "bg-emerald-50 text-emerald-600"
-        }`}
+          }`}
       >
         {status}
       </span>

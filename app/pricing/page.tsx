@@ -23,10 +23,6 @@ export default function PricingPage() {
             Pricing
           </Link>
 
-          <Link href="/#testimonials" className="hover:text-slate-950">
-            Testimonials
-          </Link>
-
           <Link href="/#faq" className="hover:text-slate-950">
             FAQs
           </Link>

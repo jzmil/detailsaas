@@ -65,10 +65,6 @@ export default function FAQPage() {
             Pricing
           </Link>
 
-          <Link href="/#testimonials" className="hover:text-slate-950">
-            Testimonials
-          </Link>
-
           <Link href="/faq" className="font-medium text-slate-950">
             FAQs
           </Link>
