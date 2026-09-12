@@ -22,10 +22,6 @@ export default function Home() {
           Pricing
         </Link>
 
-          <a href="#testimonials" className="hover:text-slate-950">
-            Testimonials
-          </a>
-
           <a href="#faq" className="hover:text-slate-950">
             FAQs
           </a>
@@ -45,9 +41,6 @@ export default function Home() {
       {/* Hero */}
       <section className="relative overflow-hidden px-6 pb-24 pt-14">
         <div className="mx-auto max-w-5xl text-center">
-          <div className="mb-6 inline-flex items-center rounded-full bg-blue-50 px-4 py-2 text-sm font-medium text-slate-600">
-            Trusted by detailers across the UK
-          </div>
 
           <h1 className="mx-auto max-w-4xl text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
             Built to keep your schedule full and take the busywork off your
