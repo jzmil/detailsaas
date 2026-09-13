@@ -21,7 +21,7 @@ export default function PricingPage() {
 
           <Link href="/pricing" className="font-medium text-slate-950">
             Pricing
-          </Link>
+          </Link>g
 
           <Link href="/#faq" className="hover:text-slate-950">
             FAQs
